@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "github.com/love477/cooking_book/proto/menu";
+
+service Menu {
+  rpc CreateMenu(CreateMenuRequest) returns (CreateMenuResponse) {}
+}
+
+message CreateMenuRequest {
+
+}
+
+message  CreateMenuResponse {
+
+}
